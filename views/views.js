@@ -27,7 +27,7 @@ const getResult = input => {
     return `${displayHands} ${result}`
   } catch (error) {
     if (error instanceof Err.TieError) {
-      return `${displayHands} <p>Ouh it's a Tie!</p>`
+      return `${displayHands} <p>Ooh it's a Tie!</p>`
     }
 
     return '<p>Sorry, we fucked up</p>'
