@@ -30,7 +30,7 @@ const getResult = input => {
       return `${displayHands} <p>Ooh it's a Tie!</p>`
     }
 
-    return '<p>Sorry, we fucked up</p>'
+    return '<p>500</p>'
   }
 }
 
